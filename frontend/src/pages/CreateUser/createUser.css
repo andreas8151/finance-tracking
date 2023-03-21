@@ -1,0 +1,5 @@
+.createUserContainer {
+  min-height: 100vh;
+  background-image: url("../../assets/wallpaper11.jpg");
+  background-size: cover;
+}

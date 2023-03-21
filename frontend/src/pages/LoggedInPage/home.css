@@ -1,0 +1,43 @@
+.LoggedInContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(
+    90deg,
+    rgb(109, 184, 221) 0%,
+    rgba(5, 95, 20, 0.494) 100%
+  );
+}
+
+.boxContainer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.105);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.414);
+  padding: 20px;
+  margin: 19px;
+  border-radius: 16px;
+  gap: 60px;
+}
+
+.headerLoggedIn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 83px;
+  margin-top: 30px;
+}
+
+.headerLoggedIn .navbar {
+  padding: 13px;
+}
+
+.budgetBox {
+  width: 400px;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.414);
+  margin: 52px;
+}

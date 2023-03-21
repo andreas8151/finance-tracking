@@ -1,0 +1,27 @@
+.nav_container {
+  padding: 10px;
+  height: 30px;
+  width: 100%;
+}
+
+.nav_container > ul {
+  display: flex;
+  flex-flow: row-reverse;
+  width: 150px;
+  padding: 10px 50px;
+  background-color: rgba(0, 0, 0, 0.416);
+  backdrop-filter: blur(50px);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+}
+
+.nav_container > ul > li {
+  list-style: none;
+}
+
+.nav_container ul li a {
+  color: rgba(255, 255, 255, 0.732);
+  font-size: large;
+  font-weight: 600;
+  text-decoration: none;
+}

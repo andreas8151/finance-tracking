@@ -1,0 +1,26 @@
+.userDataRowTot {
+  text-align: center;
+}
+
+.userData h2 {
+  text-align: center;
+  padding: 11px;
+  font-weight: 500;
+  font-size: 28px;
+  color: rgba(0, 0, 0, 0.776);
+}
+
+.userData p {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.907);
+  border: none;
+  font-size: 23px;
+  color: rgb(0, 0, 0);
+}
+
+.userDataRow {
+  display: flex;
+  justify-content: space-between;
+}
