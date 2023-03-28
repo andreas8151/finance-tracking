@@ -1,5 +1,6 @@
 
-#My Finance Site
+My Finance Site
+--------
 
 My Finance Site is a web application that allows users to track their financial assets and liabilities, including bank accounts and stocks. The site provides users with a combined value of all their financial holdings, as well as a rating system that uses colors and smiley faces to indicate their financial health.
 
