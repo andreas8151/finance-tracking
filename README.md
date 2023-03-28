@@ -28,12 +28,6 @@ To run the project locally, follow these steps:
 * Navigate to backend/src and create a .env file.
 * Copy the contents of .env.example into the new .env file and replace the values with your own configurations (i.e., database credentials, JWT secret, etc.)
 
-------------
-.env file contains
-host = "localhost" user= "" password= "" database= ""
-
-secret = ""
-
-Start the server by running npm start in the root directory.
-Start the client by running npm start in the client directory.
-Navigate to http://localhost:3000 in your web browser to access the site.
+* .env file contains - host = "localhost" user= "" password= "" database= "" secret = ""
+* Start the server by going to backend/src and run, nodemon server.js.
+* Start the client by running npm start in the frontend directory.
